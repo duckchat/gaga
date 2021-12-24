@@ -1,0 +1,618 @@
+body,html {
+    background-color: #f4f4f4;
+    height: 100%;
+    font-size: 10.66px;
+    padding:0;
+    margin:0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.site-warning {
+    background-color: red;
+    height: 5rem;
+    display: none;
+    line-height: 5rem;
+    justify-content: center;
+    color: white;
+    font-size: 1.31rem;
+}
+.zaly_container {
+    padding:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/login/login_bg.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.login_container {
+    padding:0;
+    width: 86rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 9999;
+    height: 100%;
+}
+.login_div_container {
+    position: absolute;
+    top:0rem;
+    right:0rem;
+    left:0rem;
+    right:0rem;
+    margin:  auto 0 ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+.login_backgroup_color {
+    width: 100%;
+    height: 100%;
+}
+
+.login-others {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.landing-third-title {
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+.landing-third-party{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 50%;
+}
+
+.powered_by_duckchat{
+    font-size:1.69rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(223,223,223,1);
+    position: absolute;
+    bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.powered_by_duckchat a {
+    font-size:1.69rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(223,223,223,1);
+    text-decoration: none;
+}
+.powered_by_duckchat a:hover {
+    text-decoration: white;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 86rem;
+    height:50rem;
+}
+.zaly_login{
+    width:37.52rem;
+    height:48.78rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0rem 0.94rem 7.04rem 0.47rem rgba(0,0,0,0.2);
+    border-radius:0.94rem;
+    position:relative;
+    overflow:hidden;
+}
+.zaly_register{
+    width:37.52rem;
+    height:48.78rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0rem 0.94rem 7.04rem 0.47rem rgba(0,0,0,0.2);
+    border-radius:0.94rem;
+    position:relative;
+    overflow-y: scroll;
+}
+
+.login_custom_made {
+    width:80.68rem;
+    height:43.15rem;
+    background:rgba(76,59,177,0.9);
+    border-radius:0.56rem;
+    margin:0 auto;
+}
+
+.third_login_close {
+    height: 20px;
+    width: 100%;
+    background-color: #aaaaaa;
+    text-align: right;
+    cursor: pointer;
+}
+
+.third_login_X {
+    width: 100%;
+    height: auto;
+}
+
+.third_login_iframe {
+    width: 100%;
+    height: 100%;
+    border-width: 0px;
+}
+.login_div {
+    position:absolute;
+    top:-3rem;
+    right:3rem;
+    height: 100%;
+}
+.company_logo {
+    width: 8rem;
+    height:7rem;
+    margin-top:6rem ;
+}
+.mobile_logo {
+    margin-top: 3rem;
+    width: 6rem;
+    height:6rem;
+}
+.mobile_logo_div {
+    display: none;
+}
+.mobile_slogn_div {
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:1.31rem;
+    word-break: break-all;
+    display: none;
+}
+.company_custom_made {
+    margin-left: 4rem;
+    width: 32rem;
+    position: relative;
+    height:100%;
+}
+.company_name {
+    height:3.1rem;
+    font-size:2.25rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:3.1rem;
+    margin-top: 1rem;
+}
+.company_slogan {
+    font-size:1.31rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:3rem;
+    width:31.52rem;
+    word-break: break-all;
+    margin-top: 4rem;
+}
+.company_slogan a {
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    cursor: pointer;
+    color:rgba(255,255,255,1);
+}
+.mobile_slogn_div a{
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    cursor: pointer;
+    color: rgba(153,153,153,1);
+}
+.site_version {
+    font-size:1.31rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:1.31rem;
+    margin-top: 7rem;
+    position: absolute;
+    bottom: 5rem;
+    left:0rem;
+    right:0rem;
+}
+
+.login-header {
+    margin-top: 7rem;
+}
+.login_input_div {
+    width: 28rem;
+    height:100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.login_name_div{
+    position: relative;
+    font-size:1.88rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(20,16,48,1);
+    margin-top: 6rem;
+}
+
+.margin-top4 {
+    margin-top: 4rem;
+}
+
+.input_login_site {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: 3rem;
+    width: 25rem;
+    line-height: 3rem;
+}
+
+.img {
+    width: 2rem;
+    height:2rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto 0;
+}
+.img-failed {
+    width: 2rem;
+    height:2rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -3rem;
+    margin: auto 0;
+    margin-bottom:  1rem;
+    display: none;
+}
+.img-required {
+     width: 1rem;
+     height:2rem;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: -3rem;
+     margin: auto 0;
+     margin-bottom:  1rem;
+     color: red;
+ }
+
+.pwd, .repwd , .clearLoginName,.oldPwd{
+    width: 2rem;
+    height: 1rem;
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.clearLoginName {
+    display: none;
+    width: 2rem;
+    height:2rem;
+    cursor: pointer;
+}
+.register_span_div {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    font-size:1.69rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(76,59,177,1);
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+.third_login_logo {
+    width: 3rem;
+    height:3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.login_span_div {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    font-size:1.69rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(76,59,177,1);
+    cursor: pointer;
+}
+
+.margin-top6{
+    margin-top: 6rem;
+}
+
+.margin-top5{
+    margin-top: 5rem;
+}
+
+.margin-top3{
+    margin-top: 3rem;
+}
+
+.margin-top8{
+    margin-top: 8rem;
+}
+
+input,
+.register_site {
+    font-size:1.88rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(20,16,48,1);
+    vertical-align:middle;
+    outline: none;
+    border-style:none;
+}
+
+.input_login_site::-webkit-input-placeholder,
+input::-webkit-input-placeholder,
+.register_site::-webkit-input-placeholder,
+.input_login_site::-moz-placeholder,
+input::-moz-placeholder,
+.register_site::-moz-placeholder{
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    vertical-align:middle;
+    width: 25rem;
+}
+
+input::placeholder {
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    vertical-align:middle;
+}
+
+input:focus,
+input:active,
+.register_site:focus,
+.register_site:active {
+    color:rgba(20,16,48,1);
+    font-size: 1.69rem;
+}
+
+.margin-bottom5 {
+    margin-bottom: 5px;
+}
+
+.login_phone_tip_font{
+    height:3.75rem;
+    font-size:2.63rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(76,59,177,1);
+    line-height:3.75rem;
+    vertical-align:middle;
+}
+.input_phone_div {
+    width:28.14rem;
+    margin-left: 23rem;
+    justify-content: space-between;
+}
+
+.login_input_verify_code {
+    border-style:none;
+    outline: none;
+    width: 12rem;
+    font-size:1.88rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(223,223,223,1);
+    line-height:1.88rem;
+    vertical-align:middle
+}
+
+.login_input_verify_code:focus,
+.login_input_verify_code:active{
+    color:rgba(20,16,48,1);
+}
+
+.color-white {
+    color: white;
+}
+
+.black {
+    color:rgba(20,16,48,1);
+}
+
+.reset_pwd_button,
+.reset_pwd_button:hover,
+.reset_pwd_button:focus,
+.reset_pwd_button:active,
+.update_code_btn,
+.update_code_btn:hover,
+.update_code_btn:focus,
+.update_code_btn:active,
+.login_button,
+.login_button:hover,
+.login_button:focus,
+.login_button:active{
+    margin-top: 5rem;
+    width:28.14rem;
+    height:4.69rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.66rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.register_button,
+.register_button:hover,
+.register_button:focus,
+.register_button:active,
+.register_code_button,
+.register_code_button:hover,
+.register_code_button:focus,
+.register_code_button:active{
+    margin-top:4rem;
+    width:28.14rem;
+    height:4.69rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.66rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.register_next_btn,
+.register_next_btn:hover,
+.register_next_btn:focus,
+.register_next_btn:active{
+    margin-top: 7rem;
+    width:28.14rem;
+    height:4.69rem;
+    background:rgba(216,216,216,1);
+    border-radius:0.66rem;
+}
+
+.btn-disable-color,
+.btn-disable-color:hover,
+.btn-disable-color:focus,
+.btn-disable-color:active{
+    background-color: white;
+}
+
+.span_btn_tip {
+    width:3.33rem;
+    height:1.67rem;
+    font-size:1.67rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(255,255,255,1);
+    line-height:1.67rem;
+    vertical-align:middle
+}
+
+.btn-enable-color,
+.btn-enable-color:hover,
+.btn-enable-color:focus,
+.btn-enable-color:active{
+    background:rgba(76,59,177,1);
+    outline: none;
+}
+
+.line,.register_line {
+    width:28.14rem;
+    height:1px;
+    margin:0px auto;
+    background:rgba(153,153,153,1);
+    border-radius:0.42rem;
+    overflow:hidden;
+}
+.outline{
+    border:1px solid rgba(76,59,177,1);
+    width:24rem;
+    margin-left:4rem;
+}
+.forget_input_code{
+    width: 8rem;
+}
+
+.get_verify_code{
+    bottom: 0.5rem;
+    font-size:1.66rem;
+    font-family:PingFangSC-Regular;
+    color:#4C3BB1;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.margin-top2 {
+    margin-top: 2rem;
+}
+@media (max-width: 500px) {
+    .zaly_login {
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255,1);
+        /* box-shadow: 0rem 0.83rem 1.25rem 0.42rem rgba(74,56,180,1); */
+        border-radius: 0rem;
+        position: relative;
+        overflow:hidden;
+    }
+    .zaly_register {
+        width: 100%;
+        height: 100%;
+        background: rgba(255,255,255,1);
+        /* box-shadow: 0rem 0.83rem 1.25rem 0.42rem rgba(74,56,180,1); */
+        border-radius: 0rem;
+        position: relative;
+        overflow-y: scroll;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+    .mobile_logo_div {
+        display: flex;
+        justify-content: center;
+
+    }
+    .back {
+        display:none;
+    }
+    .login-header {
+        display:none;
+    }
+
+    .login_name_div_mobile {
+        margin-top:7rem;
+    }
+    .login_custom_made {
+        display: none;
+    }
+    .login_name_div {
+        margin-top: 3rem;
+    }
+    .login_button,
+    .login_button:hover,
+    .login_button:focus,
+    .login_button.active{
+        margin-top: 5rem;
+    }
+    .mobile_slogn_div {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .login_container {
+        width: 100%;
+    }
+    .login_div {
+        position:absolute;
+        top:0rem;
+        right:0rem;
+        height: 100%;
+        width: 100%;
+    }
+    .powered_by_duckchat {
+        display: none;
+    }
+
+}
+
+@media (max-height: 500px) {
+    .mobile_slogn_div {
+        display: none;
+    }
+}

@@ -1,0 +1,105 @@
+.friend-right-body, .plugin-right-body {
+    flex-grow: 1;
+    height: 90%;
+    position: relative;
+    align-items: stretch;
+    flex-direction: row;
+    overflow: scroll;
+    background:rgba(255,255,255,1);
+}
+
+.apply-friend-item {
+    height:11rem;
+    background:rgba(255,255,255,1);
+    padding-top:3rem;
+    padding-left: 1rem;
+
+}
+.apply-friend-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.apply-friend-line {
+    height:0.1rem;
+    background:rgba(153,153,153,1);
+    margin-right: 7rem;
+    overflow: hidden;
+}
+
+.apply-body {
+    width: 100%;
+    margin-left: 1rem;
+    margin-top:1rem;
+    flex-direction: row;
+}
+
+.apply-friend-body {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7rem;
+    margin-bottom:3rem;
+    line-height: 3rem;
+}
+.apply-friend-msg {
+    width: 100%;
+    display: flex;
+    height:1.33rem;
+    font-size:1.33rem;
+    color:rgba(20,16,48,1);
+    line-height:1.33rem;
+}
+.apply-friend-msg span {
+    color:rgba(153,153,153,1);
+    margin-right: 1rem;
+}
+.apply-friend-img .useravatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10%;
+}
+
+.useravatar {
+    width: 4.68rem;
+    height: 4.68rem;
+    border-radius: 10%;
+}
+.group-member-avatar {
+    width: 3rem;
+    height:3rem;
+    border-radius: 10%;
+    margin-left:1rem;
+    margin-top: 1rem;
+}
+
+.apply-friend-desc {
+    height:3rem;
+    font-size:1.33rem;
+    color:rgba(76,59,177,1);
+    line-height:3rem;
+}
+
+.apply-friend-body span {
+    color:rgba(20,16,48,1);
+}
+.refused-apply {
+    width:6rem;
+    height:3rem;
+    border-radius:0.33rem;
+    border:0.08rem solid rgba(76,59,177,1);
+    font-size:1.17rem;
+    color:rgba(76,59,177,1);
+    margin-right:1rem;
+}
+
+.agreed-apply {
+    width:6rem;
+    height:3rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.33rem;
+    border:0.08rem solid rgba(76,59,177,1);
+    font-size:1.17rem;
+    color:rgba(255,255,255,1);
+}

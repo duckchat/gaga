@@ -1,0 +1,63 @@
+
+.pw-contact-row {
+    height: 5.63rem;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+}
+
+.pw-contact-row:hover {
+    background:rgba(245,244,249,1);
+    cursor: pointer;
+}
+
+.pw-contact-row-image {
+    margin-left: 1.81rem;
+    margin-right: 0.94rem;
+    display: flex;
+    align-items: center;
+}
+
+.pw-contact-row-image img {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.pw-contact-row-name {
+    font-size:1.31rem;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    color: rgba(20,16,48,1);;
+}
+
+.pw-contact-row-checkbox {
+    display: flex;
+    align-items: center;
+    width: 1.69rem;
+    margin-right: 0.94rem;
+}
+
+.pw-contact-row-checkbox img {
+    width: 100%;
+}
+
+.pw-contact-row-btn {
+    width:4.69rem;
+    height:2.63rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+/*left-body Special */
+.left-body-container  .pw-contact-row-image img {
+    width: 4.68rem;
+    height: 4.68rem;
+}
+.left-body-container  .pw-contact-row {
+    height: 6.57rem;
+}
+.left-body-container  .pw-contact-row {
+    font-size:1.69rem;
+}
