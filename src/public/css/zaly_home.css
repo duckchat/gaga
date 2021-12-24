@@ -1,0 +1,52 @@
+
+.pw-home-row {
+    height: 5.63rem;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    background: #fff;
+}
+
+.pw-home-row:hover {
+    background:rgba(245,244,249,1);
+    cursor: pointer;
+}
+
+.pw-home-row-image {
+    margin-left: 1.81rem;
+    margin-right: 0.94rem;
+    display: flex;
+    align-items: center;
+}
+
+.pw-home-row-image img {
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+.pw-home-row-name {
+    font-size:1.31rem;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    color: rgba(20,16,48,1);;
+}
+
+.pw-home-row-checkbox {
+    display: flex;
+    align-items: center;
+    width: 1.69rem;
+    margin-right: 0.94rem;
+}
+
+.pw-home-row-checkbox img {
+    width: 100%;
+}
+
+.pw-home-row-btn {
+    width:4.69rem;
+    height:2.63rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+

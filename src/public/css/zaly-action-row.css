@@ -1,0 +1,202 @@
+
+
+.action-group .action-row,
+.action-user .action-row {
+    height:4.69rem;
+    background:rgba(255,255,255,1);
+    display: flex;
+    align-items: stretch;
+    border-top: 1px solid rgba(223,223,223,1);
+}
+
+.action-group .action-row:last-child,
+.action-user .action-row:last-child {
+    border-bottom: 1px solid rgba(223,223,223,1);
+}
+
+.action-row .action-title {
+    margin-left: 0.84rem;
+    font-size:1.5rem;
+    color:rgba(20,16,48,1);
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.action-btn img {
+    max-height: 2.91rem;
+}
+
+.right-body-sidebar-menu {
+    height: 5.53rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-body-sidebar-menu img {
+    width: 1.12rem;
+    margin-right: 1.03rem;
+
+}
+
+.group-desc, .user-desc, .group-name {
+    padding-top: 0.94rem;
+    padding-left: 1rem;
+}
+
+.group-desc-title, .user-desc-title, .group-name-title {
+    font-size:1.5rem;
+    color:rgba(20,16,48,1);
+    font-weight: bold;
+}
+
+.group-desc-body {
+    width:26.27rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.user-desc-body {
+    font-size:1.5rem;
+    color:rgba(20,16,48,1);
+    line-height:1.5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-desc-loginName {
+    width: 100%;
+    text-align: center;
+    height:1.31rem;
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:1.31rem;
+    margin-top: 0.5rem;
+}
+
+.save_group_introduce {
+    width: 14.07rem;
+    height: 3.75rem;
+    border-radius: 0.56rem;
+    color:rgba(255,255,255,1);
+    background:rgba(201,201,201,1);
+    border: 0.09rem solid rgba(76, 59, 177, 1);
+    outline: none;
+    border: none;
+}
+.cancle_group_introduce {
+    width:14.07rem;
+    height:3.75rem;
+    border-radius:0.56rem;
+    border:0.09rem solid rgba(76,59,177,1);
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(76,59,177,1);
+    outline: none;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+
+#group-desc-div, .group-desc-div {
+    width:39.4rem;
+    height:56.29rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0rem 0.19rem 2.53rem 0rem rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.group-desc-header {
+    width:39.4rem;
+    height:5.63rem;
+    line-height: 5.63rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0rem 0.19rem 2.53rem 0rem rgba(0,0,0,0.3);
+    position: relative;
+    text-align: center;
+    font-size:1.5rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(20,16,48,1);
+}
+
+.group-desc-header button {
+    width:4.69rem;
+    height:2.81rem;
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(76,59,177,1);
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(76,59,177,1);
+    position: absolute;
+    right:2rem;
+    top:1.5rem;
+    margin:auto 0 ;
+    outline: none;
+    cursor: pointer;
+}
+
+.group-desc-detail {
+    height:43rem;
+}
+
+.group-desc-footer {
+    display: flex;
+    justify-content: center;
+    bottom: 6rem;
+    position: absolute;
+    left: 2rem;
+}
+
+.group-desc-line {
+    width:35.65rem;
+    height:0.09rem;
+    background:rgba(223,223,223,1);
+}
+
+.group-desc-area {
+    margin: 1.5rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+.textarea_desc {
+    outline: none;
+    resize: none;
+    width: 35.65rem;
+    height: 41.28rem;
+    border: none;
+}
+.edit_img {
+    width: 1rem;
+    height:1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.icon_discosure {
+    width: 0.75rem;
+    height:1.2rem;
+    position:absolute;
+    right: 1rem;
+    cursor: pointer;
+}

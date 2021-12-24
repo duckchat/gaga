@@ -1,0 +1,267 @@
+body,html {
+    background-color: #f4f4f4;
+    height: 100%;
+    font-size: 10.66px;
+    padding:0;
+    margin:0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background-image: url("../img/login_bg.png");
+}
+.zaly_window {
+    background:rgba(0,0,0,0.7);
+    padding:0;
+    margin:0;
+    position: absolute;
+    top:0;
+    height: 100%;
+    width:100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.zaly_container {
+    padding:0;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zaly_init {
+    width:75.05rem;
+    height:46.9rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background:rgba(243,243,243,1);
+    box-shadow:0rem 0.94rem 1.41rem 0.47rem rgba(74,56,180,1);
+    border-radius:0.94rem;
+}
+
+.zaly_site_upgrade {
+    width:46.9rem;
+    height:24.39rem;
+    margin: 0 auto;
+    background:rgba(255,255,255,1);
+    border-radius:0.94rem;
+}
+.zaly_site_upgrade_title {
+    height:3rem;
+    font-size:2.63rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(20,16,48,1);
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.zaly_site_upgrade_tip {
+    height:5.63rem;
+    width: 38rem;
+    font-size:1.69rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(20,16,48,1);
+    margin-left: 5rem;
+    margin-top: 3rem;
+    overflow-y: scroll;
+}
+.zaly_site_upgrade_tip pre {
+    white-space: pre-wrap;
+    display: flex;
+}
+.zaly_site_upgrade_cancel {
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.zaly_site_upgrade_cancel span {
+    margin-bottom: 2rem;
+}
+
+.zaly_site_backup_sure {
+    width:16.89rem;
+    height:3.75rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(76,59,177,1);
+    font-size:1.31rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(255,255,255,1);
+    outline: none;
+    cursor: pointer;
+}
+.zaly_site_upgrade_operation {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.upgrade_title {
+    font-size:2.81rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(76,59,177,1);
+    margin-top: 9rem;
+    text-align: center;
+}
+.upgrade_token_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.upgrade_token {
+    width:46.9rem;
+    height:5.44rem;
+    border-radius:0.84rem;
+    border:0.09rem solid rgba(151,151,151,1);
+    outline: none;
+}
+.upgrade_tip {
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    margin-left: 14rem;
+    margin-top: 1rem;
+}
+.upgrade_next_btn{
+    width:28.14rem;
+    height:4.69rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.56rem;
+    font-size:1.88rem;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    margin-top: 5rem;
+    outline: none;
+    cursor: pointer;
+}
+.textcenter{
+    text-align: center;
+}
+.site_upgrade_div {
+    display: flex;
+    justify-content: center;
+    width: 47rem;
+}
+.upgrade_init_title {
+    height:2.63rem;
+    font-size:2.63rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(76,59,177,1);
+    margin-top: 5rem;
+}
+.upgrade_process {
+    margin-top: 3rem;
+    display: flex;
+    width:47rem;
+    overflow-x: scroll;
+}
+.upgrade_img{
+    width:1.3rem;
+    height: 1.3rem;
+}
+.upgrade_line_img {
+    width: 6rem;
+    height: 0.6rem;
+}
+.margin-right2{
+    margin-right:2px;
+}
+.upgrade_info {
+    height:18.76rem;
+    border-radius:0.19rem;
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.upgrade_info_msg {
+    width:46.9rem;
+    height:18.76rem;
+    resize: none;
+    overflow-y: scroll;
+    background:RGBA(255, 255, 255, 1) ;
+    text-align: left;
+    word-break:break-all;
+}
+.upgrade_staring_btn {
+    width:28.14rem;
+    height:4.69rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.56rem;
+    font-size:1.88rem;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    outline: none;
+    cursor: pointer;
+}
+.margin-top3 {
+    margin-top: 3rem;
+}
+.upgrade_token {
+    font-size:1.88rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    padding-left: 1rem;
+}
+@media (max-width: 500px) {
+    body, html {
+        background-color: #f4f4f4;
+        height: 100%;
+        font-size: 10.66px;
+        padding: 0;
+        margin: 0;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .zaly_init {
+        width: 90%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background: rgba(243, 243, 243, 1);
+        box-shadow: 0rem 0.94rem 1.41rem 0.47rem rgba(74, 56, 180, 1);
+        border-radius: 0.94rem;
+    }
+    .upgrade_title {
+        font-size: 1.69rem;
+    }
+    .upgrade_token {
+        font-size: 1.69rem;
+        width:90%;
+    }
+    .upgrade_tip {
+        font-size: 1.31rem;
+        margin-left: 2rem;
+    }
+    .upgrade_process {
+        margin-top: 3rem;
+        display: flex;
+        margin-left: 2px;
+        width: 90%;
+    }
+    .zaly_site_upgrade {
+        width: 80%;
+        margin: 0 auto;
+        background: rgba(255,255,255,1);
+        border-radius: 0.94rem;
+    }
+    .zaly_site_upgrade_tip {
+        height: 5.63rem;
+        margin-left: 2rem;
+        word-break: break-all;
+        width: 90%;
+    }
+}

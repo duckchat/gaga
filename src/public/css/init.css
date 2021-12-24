@@ -1,0 +1,591 @@
+body,html {
+    background-color: #f4f4f4;
+    height: 100%;
+    font-size: 10.66px;
+    padding:0;
+    margin:0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background-image: url("../img/login_bg.png");
+}
+.zaly_window {
+    background:rgba(0,0,0,0.7);
+    padding:0;
+    margin:0;
+    position: absolute;
+    top:0;
+    height: 100%;
+    width:100%;
+    display: none;
+}
+.paddingTop {
+    padding-top: 5rem;
+}
+.zaly_container {
+    padding:0;
+    height: 100%;
+    position: relative;
+}
+.phpinfo {
+    width:13.13rem;
+    height:1.88rem;
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(48,165,255,1);
+    line-height:1.88rem;
+    margin-bottom: 3rem;
+}
+.zaly_init {
+    width:75.05rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background:rgba(243,243,243,1);
+    box-shadow:0rem 0.94rem 1.41rem 0.47rem rgba(74,56,180,1);
+    border-radius:0.94rem;
+}
+
+.zaly_protocol_init {
+    width:75.05rem;
+    height:46.9rem;
+    background:rgba(243,243,243,1);
+    border-radius:0.94rem;
+}
+.initDiv {
+    max-height: 60rem;
+    overflow-y: scroll;
+}
+.init_data_btn {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.zaly_protocol {
+    width:71.29rem;
+    height:35.65rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.47rem;
+    border:0.09rem solid rgba(223,223,223,1);
+    margin: 2rem auto;
+}
+.zaly_protocol_title {
+    height:3.75rem;
+    font-size:2.63rem;
+    font-family:PingFangSC-Semibold;
+    font-weight:600;
+    color:rgba(51,51,51,1);
+    line-height:3.75rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.zaly_protocol_content  textarea{
+    width:66.6rem;
+    height:27.2rem;
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:1.88rem;
+    margin: 2rem;
+    outline: none;
+    border: none;
+    overflow-y:scroll ;
+    resize: none;
+    cursor: pointer;
+}
+.zaly_protocol_content {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.zaly_protocol_operation{
+    display: flex;
+    justify-content: center;
+}
+
+.zaly_protocol_cancel{
+    height:0.94rem;
+    font-size:0.94rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height:0.94rem;
+    display: flex;
+    justify-content: center;
+    margin:1rem;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+.zaly_protocol_sure {
+    width:16.89rem;
+    height:3.75rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(76,59,177,1);
+    font-size:1.31rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(255,255,255,1);
+}
+.zaly_site_upgrade {
+    width:46.9rem;
+    height:24.39rem;
+    margin: 31rem auto;
+    background:rgba(255,255,255,1);
+    border-radius:0.94rem;
+}
+.zaly_site_upgrade_title {
+    height:3rem;
+    font-size:2.63rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(20,16,48,1);
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.zaly_site_upgrade_tip {
+    height:5.63rem;
+    width: 38rem;
+    font-size:1.69rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(20,16,48,1);
+    margin-left: 5rem;
+    margin-top: 3rem;
+    overflow-y: scroll;
+}
+.zaly_site_upgrade_tip pre {
+    white-space: pre-wrap;
+    display: flex;
+}
+.zaly_site_upgrade_cancel {
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.zaly_site_upgrade_cancel span {
+    margin-bottom: 2rem;
+}
+
+.zaly_site_upgrade_sure {
+    width:16.89rem;
+    height:3.75rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(76,59,177,1);
+    font-size:1.31rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(255,255,255,1);
+}
+.zaly_site_upgrade_operation {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.previte_init_protocol,
+.previte_init_env{
+    width:13.13rem;
+    height:3.94rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(76,59,177,1);
+    font-size:1.31rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(76,59,177,1);
+    margin-right: 2rem;
+}
+.next_init_data,
+.login_button {
+    width:13.13rem;
+    height:3.94rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(76,59,177,1);
+    font-size:1.31rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(255,255,255,1);
+}
+
+.initHeader{
+    text-align: center;
+    margin-top: 4rem;
+    font-size:2.25rem;
+    height: 2.25rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(76,59,177,1);
+}
+
+.initHeader-title {
+    font-size:1.5rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(20,16,48,1);
+    margin-left:23rem;
+    margin-top: 4rem;
+    height:1.5rem;
+    margin-bottom: 2rem;
+}
+.initHeader-setting {
+    font-size:1.5rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(20,16,48,1);
+    margin-left: 23rem;
+    margin-top: 3rem;
+    height:1.5rem;
+}
+
+.initHeader-sql {
+    margin-left: 23rem;
+    margin-top: 2rem;
+    height:1.31rem;
+    display: flex;
+    width: 28.14rem;
+}
+
+.initHeader-admin {
+    margin-left: 23rem;
+    margin-top: 1rem;
+    height:1.31rem;
+    display: flex;
+    width: 28.14rem;
+    display: flex;
+    outline: none;
+    position: relative;
+}
+.initHeader-admin-tip {
+    margin-left: 31rem;
+    font-size: 1.01rem;
+    margin-top: 2rem;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: rgba(153,153,153,1);
+}
+
+.initHeader-admin span {
+    width:8.25rem;
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(27,27,27,1);
+    line-height: 2.14rem;
+}
+
+.sql-setting span {
+    width:8.25rem;
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(27,27,27,1);
+    line-height: 2.14rem;
+    margin-top: 1rem;
+}
+
+
+.initHeader-sql .radioDiv {
+    margin-right:4rem;
+    cursor: pointer;
+}
+
+.mysql-div{
+    display: none;
+    width: 28.14rem;
+}
+
+.sqlite-div {
+    margin-left: 23rem;
+    margin-top: 1rem;
+}
+#sqlite-file {
+    width:21.95rem;
+    height:2.25rem;
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(229,229,229,1);
+    cursor: pointer;
+}
+
+.radio {
+    cursor: pointer;
+}
+
+.radioImg {
+    width:1rem;
+    height:1rem;
+}
+
+.sql-input {
+    width:18.76rem;
+    height:2.25rem;
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(229,229,229,1);
+    outline: none;
+    margin-top: 1rem;
+    color:rgba(20,16,48,1);
+}
+
+
+.admin-input {
+    width:18.76rem;
+    height:2.25rem;
+    border-radius:0.38rem;
+    border:0.09rem solid rgba(229,229,229,1);
+    outline: none;
+}
+
+.admin-input::-webkit-input-placeholder,
+.sql-input::-webkit-input-placeholder {
+    color:rgba(201,201,201,1);
+}
+.admin-input:focus,
+.sql-input:focus {
+    border:0.09rem solid rgba(76,59,177,1);
+}
+
+#verifyPluginId {
+    width:12.2rem;
+    height:2.25rem;
+    color:rgba(51,51,51,1);
+    border-radius:0.28rem;
+    outline: none;
+    cursor: pointer;
+}
+#verifyPluginId option {
+    cursor: pointer;
+}
+
+.init_check{
+    margin-left: 23rem;
+    font-size:1.31rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+
+.init_check_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top:2rem;
+    height:1.5rem;
+}
+
+.init_check_result {
+    width:1.3rem;
+    height:1.3rem;
+    display: flex;
+    margin-right: 23rem;
+}
+.init_check_result img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.errorInfo {
+    width:28.14rem;
+    margin-left: 23rem;
+    font-size:1.13rem;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(244,67,54,1);
+    margin-top: 3rem;
+}
+
+
+.margin-top3 {
+    margin-top: 3rem;
+}
+
+.choose_login_type {
+    margin-right: 32rem;
+}
+
+.mysql-setting {
+    display: flex;
+    position:relative;
+    width: 100%;
+    margin-left: 23rem;
+    align-items: center;
+}
+
+.failed_img {
+    position: absolute;
+    left:28rem;
+    top:1.5rem;
+    display: none;
+}
+.admin_failed_img {
+    position: absolute;
+    left:28rem;
+    display: none;
+    top:0.5rem;
+}
+@media (max-width: 500px) {
+    body,html {
+        background-color: #f4f4f4;
+        height: 100%;
+        font-size: 10.66px;
+        padding:0;
+        margin:0;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .zaly_init {
+        width:90%;
+        height:100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 5rem auto;
+        background:rgba(243,243,243,1);
+        box-shadow:0rem 0.94rem 1.41rem 0.47rem rgba(74,56,180,1);
+        border-radius:0.94rem;
+
+    }
+
+    .zaly_protocol_init {
+        width: 100%;
+        height: 46.9rem;
+        background: rgba(243,243,243,1);
+        border-radius: 0.94rem;
+    }
+
+    .zaly_protocol {
+        width: 90%;
+        background: rgba(255,255,255,1);
+        border-radius: 0.47rem;
+        border: 0.09rem solid rgba(223,223,223,1);
+        margin: 2rem auto;
+    }
+    .zaly_protocol_title {
+        font-size: 1.68rem;
+
+    }
+    .zaly_protocol_content textarea{
+        width: 85%;
+        height: 27.2rem;
+        font-size: 1.01rem;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: rgba(51,51,51,1);
+        line-height: 1.31rem;
+        margin: 2rem;
+        outline: none;
+        border: none;
+        overflow-y: scroll;
+        resize: none;
+        cursor: pointer;
+    }
+
+    .zaly_site_upgrade {
+        width: 85%;
+        margin: 15rem auto;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 0.94rem;
+    }
+
+    .zaly_site_upgrade_tip {
+        height: 5.63rem;
+        width: 80%;
+        font-size: 1.39rem;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: rgba(20,16,48,1);
+        margin-left: 5rem;
+        margin-top: 3rem;
+        overflow-y: scroll;
+    }
+
+    .zaly_site_upgrade_title {
+        font-size: 1.68rem;
+        font-family: PingFangSC-Medium;
+    }
+
+    .previte_init_protocol {
+        height: 3.94rem;
+        background: rgba(255,255,255,1);
+        border-radius: 0.38rem;
+        border: 0.09rem solid rgba(76,59,177,1);
+        font-size: 1.31rem;
+        font-family: MicrosoftYaHei;
+        color: rgba(76,59,177,1);
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .init_data_btn {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .initHeader{
+        text-align: center;
+        margin-top: 5rem;
+        font-size:2.25rem;
+        font-family:PingFangSC-Medium;
+        font-weight:500;
+        color:rgba(76,59,177,1);
+    }
+
+    .errorInfo {
+        width: 90%;
+        margin-left: 2rem;
+        font-size: 1.13rem;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+        color: rgba(244,67,54,1);
+    }
+
+    .initHeader-title,
+    .initHeader-setting,
+    .initHeader-sql,
+    .initHeader-admin,
+    initHeader-admin span,
+    .sql-input,
+    .sqlite-div {
+        margin-left: 3rem;
+    }
+    .initHeader-title {
+        margin-top: 4rem;
+    }
+
+    .failed_img {
+        position: absolute;
+        left: 29rem;
+        top: 1.5rem;
+        display: none;
+    }
+    .init_check {
+        margin-left: 3rem;
+        font-size: 1.31rem;
+        font-family: PingFangSC-Regular;
+        font-weight: 400;
+    }
+
+    .init_check_result {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        margin-right: 3rem;
+    }
+    .initHeader-setting {
+        margin-top: 2rem;
+    }
+    .choose_login_type {
+        margin-right: 12rem;
+    }
+    .initHeader {
+        display: none;
+    }
+    .paddingTop {
+        padding-top: 0rem;
+    }
+}

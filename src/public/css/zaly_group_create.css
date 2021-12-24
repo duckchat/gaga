@@ -1,0 +1,74 @@
+
+
+
+.create_group_button,
+.create_group_button:hover,
+.create_group_button:focus,
+.create_group_button:active{
+    width:80%;
+    color: white;
+    margin-top: 20px;
+    background:rgba(76,59,177,1);
+    border-radius:5px;
+    cursor: pointer;
+}
+
+
+.line {
+    width:80%;
+    height:1px;
+    margin:0px auto;
+    background-color:#D5D5D5;
+    overflow:hidden;
+}
+
+.form-control:focus{
+    outline: 0px;
+    -webkit-box-shadow: none;
+}
+.country-code {
+    background-color: #ffffff;
+    border-style:none;
+}
+@media screen and (max-width: 450px) {
+    body {
+        font-size: 12px;
+    }
+
+    .zaly_box {
+        width: 90%;
+        height: 90%;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 10px 15px 5px rgba(74, 56, 180, 1);
+        border-radius: 10px;
+        position: relative
+    }
+    .line {
+        width:90%;
+        height:1px;
+        margin:0px auto;
+        background-color:#D5D5D5;
+        overflow:hidden;
+    }
+    .width-percent100 {
+        width: 100%;
+    }
+
+    .font-size-12 {
+        font-size: 12px;
+    }
+    .create_group_button {
+        width:90%;
+    }
+    .create_group_button,
+    .create_group_button:hover,
+    .create_group_button:focus,
+    .create_group_button:active{
+        width:90%;
+        cursor: pointer;
+    }
+
+    .btn-enable-color{
+        background:rgba(76,59,177,1);
+    }
+}

@@ -1,0 +1,337 @@
+
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-family:PingFangSC-Regular, \5fae\8f6f\96c5\9ed1, Arial;
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 10.66px;
+    background:url("https://duckchat.akaxin.com/border_line.png") no-repeat;
+}
+
+.widget {
+    width: 100%;
+    max-width: 61rem;
+    height: 100%;
+    background:rgba(245,245,245,1);
+    box-shadow:0rem 0.19rem 2.81rem 0rem rgba(223,223,223,1);
+    border-radius:0.94rem 0.94rem 0rem 0rem;
+    position: relative;
+    z-index: 9999;
+}
+
+.widget-header {
+    height: 6rem;
+    background:rgba(76,59,177,1);
+    border-radius:0.94rem 0.94rem 0rem 0rem;
+    text-align: center;
+    line-height: 6rem;
+    font-size:1.88rem;
+    color:rgba(255,255,255,1);
+}
+
+.widget-content {
+    width:38rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.widget-content .name {
+    margin-top: 8rem;
+    font-size:1.88rem;
+    color:rgba(20,16,48,1);
+}
+
+.widget-content .line {
+    width:37.52rem;
+    height:1px;
+    background:rgba(223,223,223,1);
+    margin:0 auto;
+    margin-top: 3rem;
+}
+.widget-content .introduce {
+    text-align: center;
+    margin: 0 auto;
+}
+.widget-content .name {
+    text-align: center;
+    justify-content: center;
+}
+.widget-content .name img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+.introduce .tip{
+    text-align: left;
+    font-size:1.31rem;
+    color:rgba(20,16,48,1);
+    margin-top: 2rem;
+}
+.introduce .desc {
+    text-align: left;
+    font-size:1.31rem;
+    color:rgba(153,153,153,1);
+    margin-top: 2rem;
+}
+.widget-bottom {
+    max-width:61rem;
+    width: 100%;
+    height:5.63rem;
+    background:rgba(255,255,255,1);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.widget-bottom button {
+    background:rgba(76,59,177,1);
+    border-radius:0.47rem;
+    width:18.76rem;
+    height:3.75rem;
+    font-size:1.5rem;
+    color:rgba(255,255,255,1);
+    margin: 1rem auto;
+    outline: none;
+    cursor: pointer;
+}
+
+.right-body {
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    background:rgba(245,245,245,1);
+    border-radius:0.94rem 0.94rem 0rem 0rem;
+}
+
+.right-body-chat {
+    background: #fff;
+    flex-grow: 1;
+    border-bottom: 0.2rem solid rgba(0,0,0,0.1);
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background:rgba(245,245,245,1);
+    height:100%;
+    padding-top:0rem;
+}
+
+.right-chatbox {
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow-y: scroll;
+    height: 100%;
+    background:rgba(245,245,245,1);
+    margin-bottom: 6rem;
+}
+
+/*左右显示的修正*/
+
+.msg-left {
+    padding-left: 2.72rem;
+    padding-right: 15%;
+    margin-bottom: 2rem;
+}
+.msg-left .msg-body {
+    margin-left: 1rem;
+}
+
+/* chat message list   */
+.msg-row {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.msg-nickname-time {
+    margin-top: 0.23rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.text-align-left .msg-nickname-time {
+    position: absolute;
+}
+
+.text-align-left .msg-content {
+    margin-top: 2rem;
+}
+
+.msg-avatar img {
+    width: 4.68rem;
+    height: 4.68rem;
+    border-radius: 50%;
+}
+
+.msg-nickname {
+    font-size:1.31rem;
+    color:rgba(20,16,48,0.6);
+    font-weight: bold;
+}
+
+.msg-time {
+    font-size:1.31rem;
+    color: rgba(20,16,48,0.6);
+}
+
+.msg-content {
+    font-size:1.31rem;
+    color:#141030;
+    line-height: 1.88rem;
+    width: auto;
+    display: inline-block;
+    padding: 1rem;
+    background:rgba(255,255,255,1);
+    border-radius:0rem 0.94rem 0.94rem 0.94rem;
+}
+
+.msg-right {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 2.72rem;
+    padding-left: 10%;
+    margin-bottom: 2rem;
+}
+
+.msg-right .msg-nickname-time {
+    flex-direction: row-reverse;
+}
+
+.msg-right .msg-content {
+    color:#FFFFFF;
+    background:rgba(92,72,207,1);
+    border-radius:0.94rem 0rem 0.94rem 0.94rem;
+}
+
+.widget-bottom .right-input,
+.widget-bottom .input-box{
+    max-width: 61rem;
+    height: 5rem;
+    width:100%;
+    text-align: left;
+}
+.input-box textarea {
+    width: 85%;
+    max-width: 52rem;
+    height: 5rem;
+    outline: none;
+    border: none;
+    resize: none;
+    margin-left: 1rem;
+    padding-top: 3rem;
+    overflow: scroll;
+}
+.input-line {
+    max-width:51.59rem;
+    width:85%;
+    height:0.05rem;
+    background:rgba(201,201,201,1);
+    margin-left: 1rem;
+}
+
+#emojies {
+    width:auto;
+    height: 16rem;
+    overflow: scroll;
+    flex-direction: row;
+    padding: 1rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0rem 0.08rem 0.5rem 0.08rem rgba(223,223,223,1);
+    z-index: 9999;
+    display:none;
+    position: absolute;
+    bottom:6rem;
+    right: 2rem;
+}
+
+#emoji-row .emoji-row {
+    display: flex;
+    height:16rem;
+}
+
+.emoji-row item {
+    font-size: 3rem;
+}
+
+.emoji-row item:hover{
+    cursor: pointer;
+}
+
+
+.msg_content::-webkit-input-placeholder {
+    height:1.5rem;
+    font-size:1.5rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(201,201,201,1);
+    line-height:1.5rem;
+}
+
+.msg_content {
+    border: none;
+    flex-grow: 1;
+    font-size:1.5rem;
+    color:#C9C9C9;
+    line-height:2.06rem;
+    padding-top: 3rem;
+    resize: none;
+    margin-left: 2rem;
+}
+.msg_content:focus {
+    font-family:PingFangSC-Regular;
+    color:rgba(33,33,33,1);
+}
+.color33 {
+    color:rgba(33,33,33,1);
+}
+
+@media (max-width: 600px) {
+    .widget {
+        width: 100%;
+        height: 100%;
+        background:rgba(245,245,245,1);
+        box-shadow:0rem 0.19rem 2.81rem 0rem rgba(223,223,223,1);
+        position: relative;
+        z-index: 9999;
+        margin:0 auto;
+    }
+
+    .widget-header {
+        border-radius:0rem;
+    }
+    .widget-bottom {
+        width:100%;
+    }
+    .widget-content {
+        max-width:26.27rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .widget-content .line {
+        width:26.27rem;
+        height:1px;
+        background:rgba(223,223,223,1);
+        margin:0 auto;
+        margin-top: 3rem;
+    }
+    .msg-left{
+        padding-left:1rem;
+    }
+    .msg-right {
+        padding-right: 1rem;
+    }
+    .input-line {
+        width:75%;
+    }
+    #emojies{
+        height:12rem;
+    }
+    .emoji-row item {
+        font-size: 2.5rem;
+    }
+}

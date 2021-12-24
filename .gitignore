@@ -1,0 +1,15 @@
+duckchat_private/
+src/config.php
+src/attachment/
+*.sqlite3
+.idea/
+logs/
+.idea/
+.idea/vcs.xml
+.DS_Store
+avatar.php
+src/logs/
+src/cache/
+upgrade.php
+.rnd
+src/public/site/image/

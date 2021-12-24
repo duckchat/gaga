@@ -1,0 +1,65 @@
+@media all and (min-height:100px) and (max-height: 450px){
+    #create-group, #edit-remark, #add-friend-div, #permission-join {
+         height: 90%;
+         background: rgba(255,255,255,1);
+         border-radius: 0.94rem;
+    }
+    .header_tip_font {
+        justify-content: center;
+        text-align: center;
+        margin-top: 5rem;
+        height: 3.75rem;
+        font-size: 2.63rem;
+        color: rgba(76,59,177,1);
+        line-height: 3.75rem;
+    }
+
+    #group-invite-people {
+        height: 90%;
+        display: flex;
+        align-items: stretch;
+    }
+
+    #group-remove-people {
+        width: 39rem;
+        height:90%;
+        background: rgba(255,255,255,1);
+        box-shadow: 0rem 0.17rem 2.25rem 0rem rgba(0,0,0,0.3);
+    }
+
+    .remove-people-div {
+        overflow: scroll;
+        height: 70%;
+    }
+    .preemptiveVersionDiv {
+        display: none;
+    }
+    .add-friend-div-img{
+        margin-top: 2rem;
+        text-align: center;
+        position: relative;
+
+    }
+    .apply-friend-reason {
+        margin-top: 2rem;
+    }
+    .create_button, .create_button:hover, .create_button:focus, .create_button:active {
+        margin-top:2rem;
+    }
+
+    #share_group {
+        width: 75rem;
+        height: 90%;
+        background: rgba(255,255,255,1);
+        border-radius: 0.94rem;
+    }
+    .qrcodeCanvas-title {
+        display: none;
+    }
+}
+
+@media all and (min-height:450px) and (max-height: 650px) {
+    .preemptiveVersionDiv {
+        display: none;
+    }
+}
